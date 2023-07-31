@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/HenryDarts/gg/static/css/main.eba7eed9.css",
+    "main.js": "/HenryDarts/gg/static/js/main.b7752f72.js",
+    "static/media/hero.png": "/HenryDarts/gg/static/media/hero.d79c126af7c6dac5e169.png",
+    "static/media/nav-back.png": "/HenryDarts/gg/static/media/nav-back.acae1b810f5b739c2977.png",
+    "static/media/bk.png": "/HenryDarts/gg/static/media/bk.0aee8216eeb18d7744db.png",
+    "index.html": "/HenryDarts/gg/index.html",
+    "main.eba7eed9.css.map": "/HenryDarts/gg/static/css/main.eba7eed9.css.map",
+    "main.b7752f72.js.map": "/HenryDarts/gg/static/js/main.b7752f72.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eba7eed9.css",
+    "static/js/main.b7752f72.js"
+  ]
+}
