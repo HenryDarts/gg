@@ -1,0 +1,426 @@
+.stats {
+    width: 100%;
+    height: 1087px;
+
+    display: flex;
+    justify-content: center;
+
+    background: #F2F2F2;
+    padding-bottom: 58px;
+
+    .wrapper {
+        margin-top: 76px;
+        width: 1200px;
+        height: calc(100% - 76px);
+        display: flex;
+        justify-content: space-between;
+
+        .left {
+            width: 604px;
+            height: 909px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .prevs {
+                width: 100%;
+                height: 573px;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .title {
+                    font-family: 'Noto Sans Georgian';
+                    font-size: 24px;
+                    line-height: 28px;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    color: #000000;
+                }
+
+                .box-wrap {
+                    width: 604px;
+                    height: 509px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                    .stat-box {
+                        position: relative;
+                        width: 604px;
+                        height: 235px;
+
+                        background: #FFFFFF;
+                        box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.11);
+                        border-radius: 16px;
+
+                        .date {
+                            position: absolute;
+                            width: 228px;
+                            height: 78px;
+                            left: 188px;
+                            top: 0;
+
+                            background: #003A6E;
+                            box-shadow: 0px 12px 24px -7px rgba(0, 0, 0, 0.33);
+                            border-radius: 0px 0px 16px 16px;
+
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+
+                            .top {
+                                font-family: 'Noto Sans Georgian';
+                                font-size: 18px;
+                                line-height: 21px;
+                                text-align: center;
+                                text-transform: uppercase;
+
+                                color: #FFFFFF;
+                                font-weight: 600;
+                                margin-bottom: 3px;
+                            }
+
+                            .bottom {
+                                font-family: 'Noto Sans Georgian';
+                                font-size: 16px;
+                                line-height: 19px;
+                                text-align: center;
+                                text-transform: uppercase;
+
+                                color: #FFFFFF;
+                            }
+                        }
+
+                        .home {
+                            left: 21px;
+                            align-items: flex-start;
+                        }
+
+                        .away {
+                            right: 21px;
+                            align-items: flex-end;
+                        }
+
+                        .home,
+                        .away {
+                            position: absolute;
+                            top: 19px;
+                            width: 88px;
+                            height: 112px;
+
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+
+                            .logo {
+                                width: 66px;
+                                height: 66px;
+                            }
+
+                            .team {
+                                font-family: 'Noto Sans Georgian';
+                                font-size: 18px;
+                                line-height: 21px;
+                                text-transform: uppercase;
+                                font-weight: 600;
+                                color: #000000;
+                            }
+                        }
+
+                        .score {
+                            position: absolute;
+                            top: 98px;
+                            left: 0;
+                            width: 100%;
+                            height: auto;
+                            display: flex;
+                            justify-content: center;
+                            font-family: 'Noto Sans Georgian';
+                            font-size: 42px;
+                            line-height: 49px;
+                            text-transform: uppercase;
+
+                            color: #000000;
+                            font-weight: 800;
+                        }
+
+                        .break {
+                            height: 54px;
+                            width: 100%;
+                            position: absolute;
+                            bottom: 0;
+                            font-family: 'Noto Sans Georgian';
+                            font-size: 16px;
+                            line-height: 19px;
+                            text-align: center;
+                            text-transform: uppercase;
+
+                            color: #AFAFAF;
+                            position: absolute;
+                            border-top: 1px solid #EAEAEA;
+
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                    }
+                }
+            }
+
+            .next {
+                width: 100%;
+                height: 299px;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .title {
+                    font-family: 'Noto Sans Georgian';
+                    font-size: 24px;
+                    line-height: 28px;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    color: #000000;
+                }
+
+                .stat-box {
+                    position: relative;
+                    width: 604px;
+                    height: 235px;
+
+                    background: #FFFFFF;
+                    box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.11);
+                    border-radius: 16px;
+
+                    .date {
+                        position: absolute;
+                        width: 228px;
+                        height: 78px;
+                        left: 188px;
+                        top: 0;
+
+                        background: #003A6E;
+                        box-shadow: 0px 12px 24px -7px rgba(0, 0, 0, 0.33);
+                        border-radius: 0px 0px 16px 16px;
+
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+
+                        .top {
+                            font-family: 'Noto Sans Georgian';
+                            font-size: 18px;
+                            line-height: 21px;
+                            text-align: center;
+                            text-transform: uppercase;
+
+                            color: #FFFFFF;
+                            font-weight: 600;
+                            margin-bottom: 3px;
+                        }
+
+                        .bottom {
+                            font-family: 'Noto Sans Georgian';
+                            font-size: 16px;
+                            line-height: 19px;
+                            text-align: center;
+                            text-transform: uppercase;
+
+                            color: #FFFFFF;
+                        }
+                    }
+
+                    .home {
+                        left: 21px;
+                        align-items: flex-start;
+                    }
+
+                    .away {
+                        right: 21px;
+                        align-items: flex-end;
+                    }
+
+                    .home,
+                    .away {
+                        position: absolute;
+                        top: 19px;
+                        width: 88px;
+                        height: 112px;
+
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+
+                        .logo {
+                            width: 66px;
+                            height: 66px;
+                        }
+
+                        .team {
+                            font-family: 'Noto Sans Georgian';
+                            font-size: 18px;
+                            line-height: 21px;
+                            text-transform: uppercase;
+                            font-weight: 600;
+                            color: #000000;
+                        }
+                    }
+
+                    .next-icon {
+                        position: absolute;
+                        top: 122px;
+                        left: 266px;
+                    }
+
+                    .break {
+                        height: 54px;
+                        width: 100%;
+                        position: absolute;
+                        bottom: 0;
+                        font-family: 'Noto Sans Georgian';
+                        font-size: 16px;
+                        line-height: 19px;
+                        text-align: center;
+                        text-transform: uppercase;
+
+                        color: #AFAFAF;
+                        position: absolute;
+                        border-top: 1px solid #EAEAEA;
+
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+
+        .right {
+            width: 585px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+
+            .title {
+                font-family: 'Noto Sans Georgian';
+                font-size: 24px;
+                line-height: 28px;
+                font-weight: 600;
+                text-transform: uppercase;
+
+                color: #000000;
+            }
+
+            .table {
+                width: 585px;
+                height: 862px;
+
+                margin-top: 35px;
+                background: #FFFFFF;
+                box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.11);
+                border-radius: 16px;
+
+                .teams {
+                    width: 100%;
+                    height: 842px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                    .team:last-of-type {
+                        border: none;
+                    }
+
+                    .team {
+                        width: 563px;
+                        height: 75px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+
+                        border-bottom: 1px solid #EAEAEA;
+
+                        padding-right: 32px;
+
+
+                        .standing {
+                            font-family: 'Noto Sans Georgian';
+                            font-size: 16px;
+                            line-height: 19px;
+                            text-align: center;
+                            text-transform: uppercase;
+
+                            color: #000000;
+                            font-weight: 800;
+                            margin-left: 18px;
+                        }
+
+                        .logo-wrap {
+                            width: 162px;
+                            height: 66px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            margin-left: 28px;
+
+                            .name {
+                                font-family: 'Noto Sans Georgian';
+                                font-size: 16px;
+                                line-height: 19px;
+                                text-transform: uppercase;
+
+                                color: #000000;
+                                font-weight: 800;
+                            }
+                        }
+
+                        // .m {
+                        //     margin-left: 46px;
+                        // }
+
+                        // .w {
+                        //     margin-left: 66px;
+                        // }
+
+                        // .l {
+                        //     margin-left: 79px;
+                        // }
+
+                        // .p {
+                        //     margin-left: 53px;
+                        // }
+
+                        .m,
+                        .w,
+                        .l {
+
+                            font-family: 'Noto Sans Georgian';
+                            font-size: 16px;
+                            line-height: 19px;
+                            text-transform: uppercase;
+
+                            color: #000000;
+                            font-weight: 600;
+                        }
+
+                        .p {
+                            font-family: 'Noto Sans Georgian';
+                            font-size: 20px;
+                            line-height: 23px;
+                            text-transform: uppercase;
+
+                            color: #000000;
+                            font-weight: 700;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

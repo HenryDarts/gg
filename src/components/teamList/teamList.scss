@@ -1,0 +1,305 @@
+.team-list {
+    width: 100%;
+    height: calc(1077px - 230px);
+
+    &.lg {
+        height: 1077px;
+
+        .wrapper {
+            height: 876px;
+        }
+    }
+
+    background: #fffFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .wrapper {
+        position: relative;
+        width: 1200px;
+        height: calc(876px - 230px);
+        display: flex;
+        justify-content: space-between;
+
+        .team-nav {
+            width: 585px;
+            height: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .team-nav-item {
+                font-family: 'Noto Sans Georgian';
+                font-size: 24px;
+                line-height: 19px;
+                text-transform: uppercase;
+
+                color: #B8B8B8;
+                font-weight: 600;
+
+                cursor: pointer;
+
+                &.active {
+                    color: #003A6E;
+                    font-size: 32px;
+                    line-height: 22.27px;
+                }
+            }
+
+        }
+
+        .player-data {
+            position: absolute;
+            left: 0;
+            top: 88px;
+            width: 852px;
+            height: 470px;
+
+            background-image: url("bk.png");
+
+            .pli {
+                position: absolute;
+                left: 110px;
+                bottom: 0;
+                width: 380px;
+                height: 501px;
+            }
+
+            .player-basic-info {
+                position: absolute;
+                width: 297px;
+                height: 372px;
+                top: 49px;
+                right: 38px;
+
+                .name {
+                    font-family: 'Noto Sans Georgian';
+                    font-size: 36px;
+                    line-height: 42px;
+                    text-transform: uppercase;
+
+                    color: #003A6E;
+
+                    margin-bottom: 1px;
+                    font-weight: 800;
+                }
+
+                .position {
+                    font-family: 'Noto Sans Georgian';
+                    font-size: 24px;
+                    line-height: 28px;
+                    text-transform: uppercase;
+
+                    color: #7D7D7D;
+                    font-weight: 600;
+
+                    margin-bottom: 27px;
+                }
+
+                .pgi {
+                    width: 293px;
+                    height: 128px;
+
+                    .by,
+                    .bp,
+                    .pp,
+                    .wh {
+                        font-family: 'Noto Sans Georgian';
+                        font-size: 16px;
+                        line-height: 200%;
+
+                        text-transform: uppercase;
+
+                        color: #7D7D7D;
+
+                        font-weight: 800;
+
+                        span {
+                            color: #003A6E;
+                            font-weight: 600;
+                        }
+                    }
+                }
+
+                .pn {
+                    font-family: 'Noto Sans Georgian';
+                    font-size: 150px;
+                    line-height: 176px;
+                    text-transform: uppercase;
+
+                    color: #003A6E;
+                    font-weight: 800;
+                }
+            }
+        }
+
+        .change-player {
+            position: absolute;
+            top: 69px;
+            left: 913px;
+            width: 231px;
+            height: 508px;
+
+            background-color: #fffFFF;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+
+            .players {
+                width: 231px;
+                height: 421px;
+                overflow-x: hidden;
+                overflow-y: scroll;
+
+                -ms-overflow-style: none;
+                scrollbar-width: none;
+
+                cursor: pointer;
+
+                &::-webkit-scrollbar {
+                    display: none;
+                }
+
+                .psi {
+                    width: 231px;
+                    height: 77px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-bottom: 10px;
+
+                    .psin {
+                        font-family: 'Noto Sans Georgian';
+                        font-size: 61px;
+                        line-height: 71px;
+                        text-align: center;
+                        text-transform: uppercase;
+
+                        color: #B8B8B8;
+                        font-weight: 600;
+                        text-align: center;
+                    }
+
+                    .psipw {
+                        width: 139px;
+                        height: 55px;
+
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+
+                        .psipn {
+                            font-family: 'Noto Sans Georgian';
+                            font-size: 20px;
+                            line-height: 33px;
+                            text-transform: uppercase;
+
+                            color: #003A6E;
+                            font-weight: 800;
+                        }
+
+                        .psip {
+                            font-family: 'Noto Sans Georgian';
+                            font-size: 16px;
+                            line-height: 19px;
+                            text-transform: uppercase;
+
+                            color: #B8B8B8;
+                        }
+                    }
+                }
+            }
+        }
+
+        .cups {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 1200px;
+            height: 230px;
+            display: flex;
+            flex-direction: column;
+            display: flex;
+            justify-content: space-between;
+
+            .title {
+                font-family: 'Noto Sans Georgian';
+                font-size: 24px;
+                line-height: 28px;
+                text-transform: uppercase;
+
+                color: #000000;
+                font-weight: 800;
+            }
+
+            .cups-box {
+                width: 1152px;
+                height: 166px;
+
+                background: #F2F2F2;
+                border-radius: 16px;
+
+                padding-left: 24px;
+                padding-right: 24px;
+
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .cups-box-wrap {
+                    width: 1036px;
+                    height: 93px;
+                    display: flex;
+                    overflow-y: hidden;
+                    overflow-x: scroll;
+
+                    -ms-overflow-style: none;
+                    scrollbar-width: none;
+
+                    &::-webkit-scrollbar {
+                        display: none;
+                    }
+
+                    .won-cup {
+                        width: 270px;
+                        height: 93px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        margin-right: 26px;
+
+                        .cup-details {
+                            width: 140px;
+                            height: 65px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                            margin-left: 5px;
+
+                            .cup-name {
+                                font-family: 'Noto Sans Georgian';
+                                font-size: 16px;
+                                line-height: 19px;
+                                text-transform: uppercase;
+
+                                color: #000000;
+                            }
+
+                            .cup-year {
+                                font-family: 'Noto Sans Georgian';
+                                font-size: 16px;
+                                line-height: 19px;
+                                text-transform: uppercase;
+
+                                color: #7D7D7D;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,180 @@
+.hero {
+    width: 100%;
+    height: 793px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 61.98%, rgba(255, 255, 255, 0.87) 99.48%), url('assets/hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+
+    display: flex;
+    justify-content: center;
+
+    .wrapper {
+        position: relative;
+        width: 1200px;
+        height: 100%;
+
+        .info {
+            position: absolute;
+            width: 484px;
+            height: 272px;
+            top: 232px;
+            left: 0;
+
+            .txt-g {
+                font-family: 'Noto Sans Georgian';
+                font-size: 32px;
+                line-height: 38px;
+                text-transform: uppercase;
+
+                overflow-wrap: break-word;
+                color: #ff0000;
+            }
+
+            .btn {
+                width: 176px;
+                height: 35px;
+
+                background: #FFFFFF;
+                border-radius: 6px;
+
+                font-family: 'Noto Sans Georgian';
+                font-size: 12px;
+                line-height: 14px;
+                text-transform: capitalize;
+
+                color: #003A6E;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                margin-top: 36px;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: rgba(255, 255, 255, 0.8);
+                }
+            }
+        }
+
+        .fixture {
+            position: absolute;
+            width: 1200px;
+            height: 118px;
+            left: 0;
+            top: 636px;
+
+            background: #FFFFFF;
+            border-radius: 16px;
+
+            .f-wrap {
+                width: 100%;
+                height: 100%;
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+
+                .date {
+                    position: absolute;
+                    width: 220px;
+                    height: 29px;
+                    top: -6px;
+                    font-weight: 600;
+
+                    background: #003A6E;
+                    border-radius: 12px;
+
+                    font-family: 'Noto Sans Georgian';
+                    font-size: 16px;
+                    line-height: 19px;
+                    text-transform: uppercase;
+
+                    color: #FFFFFF;
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                .teams-wrap {
+                    position: absolute;
+                    width: 842px;
+                    height: 66px;
+                    top: 23px;
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    .left {
+                        display: flex;
+                        align-items: center;
+
+                        .team-name {
+                            font-family: 'Noto Sans Georgian';
+                            font-size: 16px;
+                            line-height: 19px;
+                            text-transform: uppercase;
+                            font-weight: 600;
+
+                            color: #000000;
+                            margin-left: 25px;
+                        }
+                    }
+
+                    .mid {
+                        font-family: 'Noto Sans Georgian';
+                        font-size: 24px;
+                        line-height: 28px;
+                        text-transform: uppercase;
+                        font-weight: 600;
+                        color: #000000;
+                    }
+
+                    .right {
+                        display: flex;
+                        align-items: center;
+
+                        .team-name {
+                            font-family: 'Noto Sans Georgian';
+                            font-size: 16px;
+                            line-height: 19px;
+                            text-transform: uppercase;
+                            font-weight: 600;
+
+                            color: #000000;
+                            margin-right: 25px;
+                        }
+                    }
+                }
+
+                .stadium {
+                    position: absolute;
+                    bottom: 15px;
+
+                    font-family: 'Noto Sans Georgian';
+                    font-size: 12px;
+                    line-height: 14px;
+                    text-transform: uppercase;
+
+                    font-weight: 600;
+
+                    color: #000000;
+                }
+            }
+        }
+
+        .break {
+            position: absolute;
+            width: 1200px;
+            height: 9px;
+            bottom: 0;
+
+            background: #003A6E;
+            border-radius: 3px;
+        }
+    }
+}
